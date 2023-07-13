@@ -10,6 +10,7 @@ cookies = {
     "ltmid_v2": "0atbtlb27b_mhy"
 }
 
+# 出来了
 
 async def main():
     # device_id: str = "".join(str(uuid.uuid4()).split("-")).upper() # str(uuid.uuid4()).upper() # "".join(str(uuid.uuid4()).split("-")).upper()
