@@ -1,0 +1,41 @@
+2023-03-31 22:15:41 INFO: 加载插件: plugins.AGbot2 
+2023-03-31 22:15:41 DEBUG: 注册命令处理器: /echo
+2023-03-31 22:15:41 DEBUG: 路由数据: {'命令': '/echo', '方法': <function _路由类.注册命令处理器.<locals>.装饰器 at 0x000002638941CE50>}
+2023-03-31 22:15:41 INFO: 插件 plugins.AGbot2 加载成功
+2023-03-31 22:15:41 INFO: 正在监听: ws://localhost:8001/
+2023-03-31 22:15:48 DEBUG: 收到post请求:
+------------------------------
+{'post_type': 'message_sent', 'message_type': 'group', 'time': 1680272148, 'self_id': 1176503930, 'sub_type': 'normal', 'font': 0, 'raw_message': '/echo', 'sender': {'age': 0, 'area': '', 'card': '陈鑫磊 | www.cxl2020mc.top', 'level': '', 'nickname': '陈鑫磊', 'role': 'owner', 'sex': 'unknown', 'title': '', 'user_id': 1176503930}, 'anonymous': None, 'group_id': 860769764, 'message': '/echo', 'message_seq': 33730, 'user_id': 1176503930, 'message_id': -1384306590}
+------------------------------
+
+2023-03-31 22:15:48 INFO: 收到来自群 陈鑫磊的博客闲聊群(860769764) 内 陈鑫磊(1176503930) 的id为: -1384306590 的消息：/echo
+2023-03-31 22:15:48 INFO: 匹配到命令 /echo
+2023-03-31 22:15:48 ERROR: 执行 主程序 时出现报错,报错信息:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\AGbot2\bot\main.py", line 23, in 启动主程序
+    await 主程序(请求数据)
+  File "C:\Users\Administrator\Desktop\AGbot2\bot\main.py", line 80, in 主程序
+    await 消息处理.群聊消息处理(请求数据)
+  File "C:\Users\Administrator\Desktop\AGbot2\bot\消息处理.py", line 14, in 群聊消息处理
+    i.get("方法")(请求数据)
+TypeError: 'NoneType' object is not callable
+
+请求数据:{'post_type': 'message_sent', 'message_type': 'group', 'time': 1680272148, 'self_id': 1176503930, 'sub_type': 'normal', 'font': 0, 'raw_message': '/echo', 'sender': {'age': 0, 'area': '', 'card': '陈鑫磊 | www.cxl2020mc.top', 'level': '', 'nickname': '陈鑫磊', 'role': 'owner', 'sex': 'unknown', 'title': '', 'user_id': 1176503930}, 'anonymous': None, 'group_id': 860769764, 'message': '/echo', 'message_seq': 33730, 'user_id': 1176503930, 'message_id': -1384306590}
+2023-03-31 22:16:01 DEBUG: 收到post请求:
+------------------------------
+{'post_type': 'message_sent', 'message_type': 'group', 'time': 1680272161, 'self_id': 1176503930, 'sub_type': 'normal', 'user_id': 1176503930, 'raw_message': '[CQ:image,file=5882400599488933b382297281972e07.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/1176503930/860769764-2445984606-5882400599488933B382297281972E07/0?term=3&amp;is_origin=0]', 'sender': {'age': 0, 'area': '', 'card': '陈鑫磊 | www.cxl2020mc.top', 'level': '', 'nickname': '陈鑫磊', 'role': 'owner', 'sex': 'unknown', 'title': '', 'user_id': 1176503930}, 'message_id': -629532428, 'anonymous': None, 'font': 0, 'group_id': 860769764, 'message': '[CQ:image,file=5882400599488933b382297281972e07.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/1176503930/860769764-2445984606-5882400599488933B382297281972E07/0?term=3&amp;is_origin=0]', 'message_seq': 33731}
+------------------------------
+
+2023-03-31 22:16:01 INFO: 收到来自群 陈鑫磊的博客闲聊群(860769764) 内 陈鑫磊(1176503930) 的id为: -629532428 的消息：[CQ:image,file=5882400599488933b382297281972e07.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/1176503930/860769764-2445984606-5882400599488933B382297281972E07/0?term=3&amp;is_origin=0]
+2023-03-31 22:16:03 DEBUG: 收到post请求:
+------------------------------
+{'post_type': 'message_sent', 'message_type': 'group', 'time': 1680272162, 'self_id': 1176503930, 'sub_type': 'normal', 'anonymous': None, 'font': 0, 'group_id': 860769764, 'message': '草', 'raw_message': '草', 'sender': {'age': 0, 'area': '', 'card': '陈鑫磊 | www.cxl2020mc.top', 'level': '', 'nickname': '陈鑫磊', 'role': 'owner', 'sex': 'unknown', 'title': '', 'user_id': 1176503930}, 'user_id': 1176503930, 'message_id': 1131628878, 'message_seq': 33732}
+------------------------------
+
+2023-03-31 22:16:03 INFO: 收到来自群 陈鑫磊的博客闲聊群(860769764) 内 陈鑫磊(1176503930) 的id为: 1131628878 的消息：草
+2023-03-31 22:16:36 DEBUG: 收到post请求:
+------------------------------
+{'post_type': 'message', 'message_type': 'group', 'time': 1680272196, 'self_id': 1176503930, 'sub_type': 'normal', 'anonymous': None, 'font': 0, 'group_id': 589330978, 'message': '[CQ:image,file=0c0e6c7a4d3c1bcaad5cb5acb011494b.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/1400000222/589330978-2966850578-0C0E6C7A4D3C1BCAAD5CB5ACB011494B/0?term=3&amp;is_origin=0]', 'sender': {'age': 0, 'area': '', 'card': '4t.pw', 'level': '', 'nickname': '怕冷爱上雪', 'role': 'member', 'sex': 'unknown', 'title': '方糖的好大儿', 'user_id': 1400000222}, 'user_id': 1400000222, 'message_seq': 340565, 'raw_message': '[CQ:image,file=0c0e6c7a4d3c1bcaad5cb5acb011494b.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/1400000222/589330978-2966850578-0C0E6C7A4D3C1BCAAD5CB5ACB011494B/0?term=3&amp;is_origin=0]', 'message_id': 1839587007}
+------------------------------
+
+2023-03-31 22:16:36 INFO: 收到来自群 🧊Akilarの糖果屋🍭(589330978) 内 怕冷爱上雪(1400000222) 的id为: 1839587007 的消息：[CQ:image,file=0c0e6c7a4d3c1bcaad5cb5acb011494b.image,subType=0,url=https://gchat.qpic.cn/gchatpic_new/1400000222/589330978-2966850578-0C0E6C7A4D3C1BCAAD5CB5ACB011494B/0?term=3&amp;is_origin=0]
